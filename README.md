@@ -1,5 +1,5 @@
 # cinema-app
-This is a prototype of cinema web application. We have two general roles: `USER` and `ADMIN`.
+This is a prototype of cinema web application (only backend side) for a movie theatre. We have two general roles of user: `USER` and `ADMIN`.
 ### Endpoints
 #### For non-logged in
 `POST` /register  
@@ -24,9 +24,10 @@ This is a prototype of cinema web application. We have two general roles: `USER`
 `Service` Application layer - main logic of the application  
 `Controller` Presentation layer - communication with a user (Spring API)  
 #### Technologies
+`Java` jdk-11  
 `Maven`  
 `Hibernate` 5.4.27.Final  
-`Spring` 5.2.2.RELEASE   
+`Spring` (Core, MVC, Security) 5.2.2.RELEASE   
 `MySQL` 8.0 (recommend to use)  
 `Apache Tomcat` 9.0.65  
 `Postman` for testing
