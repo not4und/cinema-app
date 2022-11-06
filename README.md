@@ -1,5 +1,5 @@
 # cinema-app
-This is a prototype of cinema web application (only backend side) for a movie theatre. We have two general roles of user: `USER` and `ADMIN`.
+This is a prototype of cinema web application (only backend side) for a movie theatre. We have two general roles of user: `USER(as viewer)` and `ADMIN`.
 ### Endpoints
 #### For non-logged in
 `POST` /register  
