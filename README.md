@@ -21,7 +21,7 @@ This is a prototype of cinema web application. We have two general roles: `USER`
 ## Project structure
 #### Levels
 `DAO` Data access layer - access to the database (Hibernate API)  
-`Service` Application layer - main logic of the application 
+`Service` Application layer - main logic of the application  
 `Controller` Presentation layer - communication with a user (Spring API)  
 #### Technologies
 `Maven`  
